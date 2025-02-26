@@ -1,0 +1,9 @@
+cookie_banner_block:
+  version: 1.x
+  css:
+    theme:
+      assets/css/cookie_banner_block.css: {}
+  js:
+    assets/js/cookie_banner_block.js: {}
+  dependencies:
+    - core/jquery

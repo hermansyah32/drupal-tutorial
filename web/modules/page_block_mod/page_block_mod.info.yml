@@ -1,0 +1,7 @@
+name: 'Page Block Mod'
+type: module
+description: 'Provides a custom page block type.'
+core_version_requirement: ^10 || ^11
+package: PageBlockMod
+dependencies:
+  - drupal:block

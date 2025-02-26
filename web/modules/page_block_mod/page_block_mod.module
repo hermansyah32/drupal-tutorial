@@ -1,0 +1,20 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function page_block_mod_theme($existing, $type, $theme, $path) {
+  return [
+    'cookie_banner_block' => [
+      'variables' => [
+        'title' => NULL,
+        'content' => NULL,
+        'categories' => [],
+        'script' => NULL,
+        'buttonAccept' => NULL,
+        'buttonDecline' => NULL,
+      ],
+      'template' => 'cookie_banner_block',
+    ],
+  ];
+}
