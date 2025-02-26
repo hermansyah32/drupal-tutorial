@@ -1,0 +1,50 @@
+# Ignore DDEV generated files
+.ddev/*
+!.ddev/php/*/**.ini
+!.ddev/config.yaml
+!.ddev/mysql/*/**.cnf
+!.ddev/nginx_full/*/**.conf
+
+# Ignore other common files
+*.log
+*.tmp
+*.cache
+*.bak
+*.swp
+*.swo
+*.DS_Store
+.idea/
+.vscode/
+node_modules/
+
+# Ignore compiled files
+web/core
+web/modules/contrib
+web/themes/contrib
+web/profiles/contrib
+web/libraries
+
+# Ignore Drupal specific files
+web/sites/default/files/
+web/sites/default/private/
+web/sites/*/files/
+web/sites/*/private/
+web/sites/*/settings.php
+web/sites/*/services.yml
+web/sites/*/development.services.yml
+web/sites/*/local.services.yml
+web/sites/*/test.services.yml
+
+# Ignore Composer specific files
+composer.phar
+vendor/
+
+# Ignore Drush specific files
+.drush/
+.drushrc.php
+drush/
+
+
+# Ignore dpendency files
+package-lock.json
+yarn.lock
