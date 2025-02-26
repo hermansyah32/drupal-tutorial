@@ -20,7 +20,8 @@
         "drupal/core-composer-scaffold": "^11.1",
         "drupal/core-project-message": "^11.1",
         "drupal/core-recommended": "^11.1",
-        "drupal/webform": "^6.3@beta"
+        "drupal/webform": "^6.3@beta",
+        "drush/drush": "^13.3"
     },
     "conflict": {
         "drupal/drupal": "*"
