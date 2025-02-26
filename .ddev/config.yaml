@@ -1,4 +1,4 @@
-name: drupal-11
+name: drupal-tutorial
 type: drupal
 docroot: web
 php_version: "8.3"
